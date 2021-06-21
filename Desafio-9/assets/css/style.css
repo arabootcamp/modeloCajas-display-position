@@ -1,0 +1,52 @@
+  html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  *,
+  *:before,
+  *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    margin: 0;
+  }
+
+  .container {
+    background-color: #ccc;
+  }
+
+  .header__title {
+    background-color: #000;
+    color: #FFF;
+    padding: 5px 0px 5px 10px;
+  }
+
+  .navbar {
+    background-color: #ccc;
+    width: 34%;
+    float: left;
+    padding: 20px 10px;
+  }
+
+  .section {
+    width: 66%;
+    float: left;
+    background-color: white;
+    padding: 20px 10px;
+  }
+
+  .footer {
+    clear: left;
+    background-color: #999;
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+  }
+
+  @media only screen and (min-width:937px) {
+    .container {
+      background-color: white;
+    }
+  }

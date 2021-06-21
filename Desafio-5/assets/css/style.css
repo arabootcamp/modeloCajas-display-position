@@ -1,0 +1,15 @@
+.section-3d {
+  margin-top: 50px;
+  margin-left: 50px;
+  position: relative;
+}
+
+.section-3d__img--glasses {
+  width: 243px;
+  height: 285px;
+  position: absolute;
+}
+
+.section-3d__img--ribbon {
+  position: absolute;
+}

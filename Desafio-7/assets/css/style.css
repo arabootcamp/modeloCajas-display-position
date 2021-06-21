@@ -1,0 +1,5 @@
+.img--awwwards{
+  position:absolute;
+  left:calc(100% - 69px);
+  z-index: 10; 
+}

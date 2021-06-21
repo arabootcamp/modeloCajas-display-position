@@ -1,0 +1,60 @@
+/*Valores base*/
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+/*Fin - Valores base*/
+
+/*Clases Ejercicio 1*/
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  margin: 5px;
+  display: flex;
+}
+
+/*border-box definido en valores base, hace que la caja tenga 25% independiente del tamaño padding*/
+.box {
+  border: 2px solid #808080;
+  height: 100px;
+  width: 25%;
+  padding: 5px;
+  text-align: center;
+}
+
+/*Fin - Clases Ejercicio 1*/
+
+/*Clases Ejercicio 2*/
+.box__img {
+  width: 100%;
+  object-fit: fill;
+}
+/*Fin - Clases Ejercicio 2*/
+
+/*Clases Ejercicio 3*/
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 0 10px;
+  background-color: green;
+  text-align: justify;
+}
+
+.section {
+  margin-top: 100px;
+}
+/*Fin - Clases Ejercicio 3*/

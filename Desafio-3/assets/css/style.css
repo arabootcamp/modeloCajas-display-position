@@ -1,0 +1,123 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+h2{
+  margin-left: 5vw;
+}
+
+.margin{
+  margin-top: 30px;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.bg-yellow {
+  background-color: yellow;
+}
+
+.flag {
+  width: 90vw;
+  height: 59vw;
+  border: 1px solid #888;
+  margin: auto;
+  position: relative;
+}
+
+
+/*España*/
+.flag__line-horizontal--spain {
+  width: 100%;
+  height: 44%;
+  background-color: yellow;
+  position: absolute;
+  top: calc((100% - 44%)/2);
+}
+
+/*Dinamarca*/
+.flag__line-horizontal--denmark {
+  width: 100%;
+  height: 11.2%;
+  background-color: white;
+  position: absolute;
+  top: calc((100% - 11.2%)/2);
+}
+
+.flag__line-vertical--denmark {
+  width: 7.37%;
+  height: 100%;
+  background-color: white;
+  position: absolute;
+  left: calc((100% - 7.37%)/3.2)
+}
+
+/*Emiratos Árabes*/
+.flag__line-horizontal--ea {
+  width: 76%;
+  height: 33.33%;
+  position: absolute;
+  left: 24%;
+}
+
+.top-middle {
+  top: 33.33%;
+}
+
+.top-end {
+  top: 66.66%;
+}
+
+/*Japón*/
+.circle--japan {
+  width: 31.5%;
+  height: 48%;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(100%/2 - 48%/2);
+  left: calc(100%/2 - 31.5%/2);
+}
+
+@media only screen and (min-width:768px) {
+
+  .main{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .flag {
+    width: 45vw;
+    height: 28.5vw;
+  }
+
+  h2{
+    margin-left: 0;
+  }
+}
